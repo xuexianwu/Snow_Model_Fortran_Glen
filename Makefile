@@ -25,11 +25,11 @@ outputs_user.o \
 readparam_code.o 
 
 SRC_DIR_fd1 = 
-OBJS_DIR = .objs/
-EXE_DIR = 
+OBJS_DIR = SnowModel/
+EXE_DIR = SnowModel/
 
-EXE = SNOWMODEL.exe
-FC = mingw32-gfortran.exe
+EXE = SnowModel
+FC = gfortran
 IDIR = 
 CFLAGS = -Wall  -J$(OBJS_DIR) $(IDIR)
 LFLAGS = 

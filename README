@@ -2,6 +2,14 @@ This code is authored by Dr. Glen E. Liston, Cooperative Institute for Research 
 
 More documentation and references to follow.
 
+STEP-1:
+	rm -f SnowModel/*.*
+STEP-2:
+	make
+
+2016-8-26
+Modify the Makefile
+
 2016-8-26
 Add MakeFile
 
